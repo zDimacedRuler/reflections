@@ -1,0 +1,5 @@
+1.What happens when you initialize a repository? Why do you need to do it?
+git init is used to initialize a repository.There are no commits and no files are tracked after a repository is initialized.Initialization is required to track files and keep log commits.
+
+2.How is the staging area different from the working directory and the repository? What value do you think it offers?
+Stagging area allows the user to choose and cahnge those files which wants to be commit next.Its different because its where files which are to be commited are added.
