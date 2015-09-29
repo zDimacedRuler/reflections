@@ -3,3 +3,6 @@ git init is used to initialize a repository.There are no commits and no files ar
 
 2.How is the staging area different from the working directory and the repository? What value do you think it offers?
 Stagging area allows the user to choose and cahnge those files which wants to be commit next.Its different because its where files which are to be commited are added.
+
+3.How can you use the staging area to make sure you have one commit per logical change?
+Files that are modified and have multiple logical changes.Files with one logical change can be staged in the staging area and commited.And the other files with different logical changes can be staged one by one in staging area and commited.
