@@ -6,3 +6,16 @@ Stagging area allows the user to choose and cahnge those files which wants to be
 
 3.How can you use the staging area to make sure you have one commit per logical change?
 Files that are modified and have multiple logical changes.Files with one logical change can be staged in the staging area and commited.And the other files with different logical changes can be staged one by one in staging area and commited.
+
+4.What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branching is used to branch from master for experimental purposes so that the user can check new features and still continue with his main 
+master branch.This helps incredibly since if the user wants to check some new feature without actually deviating from his main commit ,he can branch from that commit and test his new feature.
+
+5.How do the diagrams help you visualize the branch structure?
+The diagrams help visulize the branch structure as the clean representation of commits in branch really elicudate the real form of branches.Without the diagrams its somehow hard to imagine of branch structure.
+
+6.What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging joins two separte versions of files into one.If the new version we worked on works and we like the features of master and new branch work together,we can merge those files.Diagram represntation makes it easy to understand the branching structure.
+
+7.What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Gits automatic merges two commits but in case of a conflict the conflict should be manually solved and then the merge is completed.Manually conflict resolution is done to ensure the right version of file is finnaly commited.
